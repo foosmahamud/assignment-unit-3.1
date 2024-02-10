@@ -16,7 +16,7 @@ console.log(favoriteFoods);
 //   a message, similar to the example above.
 
 // Array.length: A property that tells you how many items are in a given array.
-// yes, that is correct! `length` property of an array returns the number od elements (or items) in the array.
+// yes, that is correct! `length` property of an array returns the number of elements (or items) in the array.
 let myArray = [11, 13, 17, 23];
 console.log(myArray.length); //output: 4
 console.log('--- 2. Length of an array ---'); 
