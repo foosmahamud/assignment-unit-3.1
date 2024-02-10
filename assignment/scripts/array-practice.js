@@ -8,21 +8,29 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1. TODO: Make an array `favoriteFoods` with some favorite foods.
+let favoriteFoods = ['salad', 'green beans', 'cherry tomatoes'];
+let fruites = ['apple', 'banna', 'orange'];
+console.log(fruites);
 //    Be sure to console.log your array of foods to the console with
-//    a message, similar to the example above.
-
+console.log(favoriteFoods);
+//   a message, similar to the example above.
 
 // Array.length: A property that tells you how many items are in a given array.
-console.log('--- 2. Length of an array ---');
-
+// yes, that is correct! `length` property of an array returns the number od elements (or items) in the array.
+let myArray = [11, 13, 17, 23];
+console.log(myArray.length); //output: 4
+console.log('--- 2. Length of an array ---'); 
 // Example: How many animals are in the array?
-let numberOfAnimals = animalArray.length // 👈 Using the .length property!
+let lengthnumberOfAnimals = animalArray; // 👈 Using the .length property!
+
 console.log('Number of animals:', numberOfAnimals);
 
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
+let lengthnumberOfFoods = favoriteFoods.lenghth;
 
+console.log(numberOfFoods);
 
 // Accessing array items
 console.log('--- 3. Accessing items in an array ---');
