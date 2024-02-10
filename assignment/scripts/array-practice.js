@@ -20,15 +20,16 @@ console.log(favoriteFoods);
 let myArray = [11, 13, 17, 23];
 console.log(myArray.length); //output: 4
 console.log('--- 2. Length of an array ---'); 
+
 // Example: How many animals are in the array?
-let lengthnumberOfAnimals = animalArray; // 👈 Using the .length property!
+let numberOfAnimals = animalArray.length; // 👈 Using the .length property!
 
 console.log('Number of animals:', numberOfAnimals);
 
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
-let lengthnumberOfFoods = favoriteFoods.lenghth;
+let numberOfFoods = favoriteFoods.length;
 
 console.log(numberOfFoods);
 
