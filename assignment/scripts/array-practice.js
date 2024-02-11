@@ -38,19 +38,32 @@ console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using its array index
 let firstAnimal = animalArray[0];
+let dog = 'Dog';
+let animals =['dog', 'cat', 'lion', 'tiger'];
 console.log('First animal is', firstAnimal);
+
 
 // 3.a. TODO: Create a variable `secondAnimal` and assign it the value
 //      of the second item from the `animalArray`.
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
 
+ let secondAnimal = animalArray[1];
+ let cat = 'Cat';
+ console.log(secondAnimal[1]);
+ console.log('Second animal is', secondAnimal);
+ 
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
 //      the "last" item in `animalArray`, using its array index.
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
+
+let lastAnimal = animalArray [2];
+let lion ='Lion';
+console.log(lastAnimal[2]);
+console.log('Last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
