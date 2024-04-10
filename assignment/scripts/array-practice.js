@@ -10,10 +10,13 @@ console.log('Animals are: ', animalArray);
 // 1. TODO: Make an array `favoriteFoods` with some favorite foods.
 //    Be sure to console.log your array of foods to the console with
 //    a message, similar to the example above.
-
-
-// Array.length: A property that tells you how many items are in a given array.
-console.log('--- 2. Length of an array ---');
+let favoriteFoods = ['fishtaco', 'salmon', 'cauliflower', 'cabbage'];
+console.log('Favoritefood are:', favoriteFoods);
+//Array.length: A property that tells you how many items are in a given array.
+let myArray = [2, 3, 4, 5, 6];
+console.log(myArray);
+console.table(myArray);
+//console.log('--- 2. Length of an array ---');
 
 // Example: How many animals are in the array?
 let numberOfAnimals = animalArray.length // 👈 Using the .length property!
@@ -22,19 +25,24 @@ console.log('Number of animals:', numberOfAnimals);
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
+let numberOfFoods = favoriteFoods.length;
 
+console.log(numberOfFoods);
+numberOfFoods.length = 3;
 
 // Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using its array index
-let firstAnimal = animalArray[0];
+let firstAnimal = animalArray[0]; // fish
 console.log('First animal is', firstAnimal);
 
 // 3.a. TODO: Create a variable `secondAnimal` and assign it the value
 //      of the second item from the `animalArray`.
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
+let secondAnimal = animalArray[1]; // cat
+console.log('second animal is', secondAnimal);
 
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
@@ -42,6 +50,12 @@ console.log('First animal is', firstAnimal);
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
+let lastAnimal = animalArray[3]; // dog
+console.table(lastAnimal);
+console.log('last animal is, lastAnimal');
+
+//  adding a item the the array
+animalArray.push('Frienly Day');
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
@@ -55,6 +69,7 @@ console.log('--- 4. Adding and removing array items ---');
 let animalToPush = 'penguin';
 animalArray.push(animalToPush);
 console.log('Added an animal to end,', animalArray);
+ let lastItem = lastAnimal.pop();
 
 // 4.a. TODO: Create a variable `dessert` and assign it a string value of
 //      a dessert that you love.
