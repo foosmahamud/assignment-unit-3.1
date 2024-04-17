@@ -69,8 +69,6 @@ console.log('--- 4. Adding and removing array items ---');
 let animalToPush = 'penguin';
 animalArray.push(animalToPush);
 console.log('Added an animal to end,', animalArray);
- let lastItem = lastAnimal.pop();
-
 // 4.a. TODO: Create a variable `dessert` and assign it a string value of
 //      a dessert that you love.
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
